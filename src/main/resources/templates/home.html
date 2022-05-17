@@ -1,0 +1,12 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <ul>
+        <li th:each="cirurgia : ${cirurgias}">
+            <p th:text="${cirurgia.paciente}"></p>
+        </li>
+    </ul>
+</body>
+</html>
